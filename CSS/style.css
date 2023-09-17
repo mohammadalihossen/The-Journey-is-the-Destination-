@@ -1,0 +1,149 @@
+body{
+    
+    margin: 0;
+    padding: 0;
+    font-family: 'Frank Ruhl Libre', serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto Slab', serif;
+}
+
+
+img{
+width: 100%;
+
+}
+.container{
+   max-width: 1140px;
+   margin: auto;
+}
+
+.header-nav{
+    padding: 20px 0px;
+    box-shadow: 0 1px 15px 5px #ededed;
+}
+
+header {
+    display: flex;
+    align-items: center;
+
+}
+
+header .logo{
+    width: 15%;
+
+}
+
+header .logo img{
+    width: 100%;
+}
+
+header nav{
+    width: 65%;
+
+}
+
+header nav ul{
+    list-style: none;
+    display: flex;
+    padding-left: 0;
+    justify-content: space-evenly;
+}
+
+header nav ul li a{
+    text-decoration: none;
+    color: #92c541;
+    padding:20px ;
+    font-weight: 500;
+    font-size: 18px;
+    border-radius: 5px;
+}
+
+header nav ul li a:hover{
+    background-color: #5bc4e9;
+    color: white;
+    
+}
+
+header .nav-icon{
+    width: 40%;
+
+}
+
+header .nav-icon ul{
+    list-style: none;
+    display: flex;
+    padding-left: 0;
+    justify-content: space-evenly;
+ 
+ }
+ 
+header .nav-icon ul li a{
+     text-decoration: none;
+     color: #92c541;
+ 
+ }
+
+ section .travel-section{
+    border: 1px solid brown;
+    justify-content: space-evenly;
+    margin-left: 30px;
+
+ }
+
+ .travel-section{
+    padding: 50px 0;
+
+ } 
+
+ .travel-section .travel-content h1 {
+    color: #92c541;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 45;
+    font-weight: 700;
+    margin-bottom: 27px;
+}
+.location-box {
+    display: flex;
+    padding: 20px 0;
+    justify-content: space-evenly;
+}
+
+ .location-box .box{
+    max-width: 32.33%;
+    box-shadow: 0 3px 5px 5px #ededed;
+    border-radius: 10px;
+    overflow: hidden;
+   
+ }
+
+ .box-text{
+    padding: 20px;
+    
+ }
+ .box-text h3{
+    color:  #92c541;
+    font-size: 22px;
+    margin: 5px;
+    
+
+ }
+ .box-text p {
+    color:  #80a14a;
+    font-size: 16px;
+    margin-top: 7px;
+    margin-bottom: 31px;
+
+ }
+ .box-text a{
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    background-color: #92c541;
+    padding: 15px 30px;
+    border-radius: 25px;
+
+
+
+ }
+
